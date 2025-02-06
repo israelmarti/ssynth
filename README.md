@@ -1,13 +1,14 @@
 <h1 align="center"> ssynth </h1>
 
-The (**ssynth**) is a PYTHON library applied to generate synthetic spectroscopic observational datasets of a simulated binary system.
-
  ## Introduction
+
+
+**ssynth** is a PYTHON library applied to generate synthetic spectroscopic observational datasets of a simulated binary system.
 
 
 ## Installation
 
-The (**ssynth**) is distributed on PyPI as a universal wheel is available on Linux/macOS and Windows and supports Python 3.10.12
+**ssynth** is distributed on PyPI as a universal wheel is available on Linux/macOS and Windows and supports Python 3.10.12
 
 ```bash
 pip install git+https://github.com/israelmarti/ssynth#egg=ssynth
@@ -16,7 +17,7 @@ For the optimized interactive useful run from [IPython](https://ipython.org/inst
 
 ## Dependencies
 
-BiSpeD requires the latest dependencies for Python 3.10 (for 3.6 and 3.8 install these versions):
+**ssynth** requires the latest dependencies for Python 3.10 (for 3.6 and 3.8 install these versions):
 - [Astropy](https://www.astropy.org) (v6.0.0)
 - [Matplotlib](https://matplotlib.org) (v3.8.3)
 - [Numba](https://numba.pydata.org) (v0.59.0)
@@ -30,7 +31,7 @@ BiSpeD requires the latest dependencies for Python 3.10 (for 3.6 and 3.8 install
 
 - **create**
 
-> The dataset is built from any two component spectra and orbital parameters provided by the user. The varaibles are: number of observations ($N$), flux ratio ($L_B/L_A$), mass ratio ($M_B/M_A$), orbital period ($P$), spanning time, tilt angle ($i$), RV measurement random error, and S/N (as Gaussian noise added to the composite spectrum). 
+> Build a dataset from any two component spectra and orbital parameters provided by the user. The varaibles are: number of observations ($N$), flux ratio ($L_B/L_A$), mass ratio ($M_B/M_A$), orbital period ($P$), spanning time, tilt angle ($i$), RV measurement random error, and S/N (as Gaussian noise added to the composite spectrum). 
 > 
 > Mandatory parameters:
 > - `sa`: spectrum of primary component in FITS extension with or without extension (string);

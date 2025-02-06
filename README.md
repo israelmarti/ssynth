@@ -31,7 +31,7 @@ For the optimized interactive useful run from [IPython](https://ipython.org/inst
 
 - **create**
 
-> Build a dataset from any two component spectra and orbital parameters provided by the user. The varaibles are: number of observations ($N$), flux ratio ($L_B/L_A$), mass ratio ($M_B/M_A$), orbital period ($P$), spanning time, tilt angle ($i$), RV measurement random error, and S/N (as Gaussian noise added to the composite spectrum). 
+> Build a dataset from any two component spectra and orbital parameters provided by the user. The variables are: number of observations ($N$), flux ratio ($L_B/L_A$), mass ratio ($M_B/M_A$), orbital period ($P$), span time, tilt angle ($i$), RV measurement random error, and S/N (as Gaussian noise added to the composite spectrum). 
 > 
 > Mandatory parameters:
 > - `sa`: spectrum of primary component in FITS extension with or without extension (string);
@@ -42,7 +42,7 @@ For the optimized interactive useful run from [IPython](https://ipython.org/inst
 > - `lb`: luminosity of secondary component (float);
 > - `n`: number of observations  (integer);
 > - `p`: orbital period of binary system in days (float);
-> - `yran`: spanning time in years (float);
+> - `yran`: time span in years (float);
 > 
 > Optional parameters:
 > - `i`: tilt angle (float);
